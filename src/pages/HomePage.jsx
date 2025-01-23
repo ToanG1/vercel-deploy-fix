@@ -23,7 +23,7 @@ const HomePage = () => {
         <Header></Header>
         <div className="hero-slider-section">
             <div className="hero-slider-active swiper-container">
-                <Slider1></Slider1>
+                <Slider1 />
                 
             </div>
         </div> 
@@ -177,7 +177,7 @@ const HomePage = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <Slider2></Slider2>
+                        <Slider2 />
                     </div>
                 </div>
             </div>
@@ -223,7 +223,7 @@ const HomePage = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <Slider3></Slider3>
+                        <Slider3 />
                     </div>
                 </div>
             </div>
@@ -302,7 +302,7 @@ const HomePage = () => {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-12">
-                        <Slider4></Slider4>
+                        <Slider4 />
                     </div>
                 </div>
             </div>
@@ -332,7 +332,7 @@ const HomePage = () => {
            </div>
        </div>
    </div>
-          <Footer></Footer>
+          <Footer />
       
     </div>
   );
