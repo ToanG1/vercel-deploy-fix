@@ -5,7 +5,7 @@ import 'swiper/css/pagination';
 import { Autoplay } from 'swiper/modules';
 
 
-const Swiper2 = () => {
+const Slider2 = () => {
   return (
     <Swiper
       slidesPerView={1}
@@ -452,4 +452,4 @@ const Swiper2 = () => {
   );
 };
 
-export default Swiper2;
+export default Slider2;

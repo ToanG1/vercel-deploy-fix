@@ -4,12 +4,11 @@ import 'swiper/css';
 
 
 import './Slider1.css'
-import '../../public/css/style.css'
 import { Autoplay } from 'swiper/modules';
 
 
 
-const Swiper3 = () => {
+const Slider3 = () => {
   return (
     <Swiper
       slidesPerView={1}
@@ -254,4 +253,4 @@ const Swiper3 = () => {
   );
 };
 
-export default Swiper3;
+export default Slider3;
