@@ -12,7 +12,7 @@ import '../../public/css/style.css'
 import $ from 'jquery'
 import Slider1 from '../slider/Slider1'
 import Slider2 from '../slider/Slider2';
-import Slider3 from '../slider/Slider3';
+import Slider3 from '../slider/Slider3.jsx';
 import Slider4 from '../slider/Slider4';
 
 
