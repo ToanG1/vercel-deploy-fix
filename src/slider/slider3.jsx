@@ -41,105 +41,215 @@ const Swiper3 = () => {
       className="mySwiper"
     >
       <SwiperSlide>
-              <div className="hero-slider">
-                <div className="hero-slider-bg">
-                  <img src="/public/images/hero-slider/home-1/hero-slider-1.jpg" alt="Hero Slider 2" />
-                </div>
-                <div className="hero-slider-wrapper">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-auto">
-                        <div className="hero-slider-content">
-                          <h4 className="subtitle">New collection</h4>
-                          <h2 className="title">Best Of NeoCon <br /> Gold Award </h2>
-                          <a href="product-details-default.html" className="btn btn-lg btn-outline-golden">shop now</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+        <div className="product-default-single-item product-color--golden swiper-slide">
+          <div className="image-box">
+            <a href="product-details-default.html" className="image-link">
+              <img src="./public/images/product/default/home-1/default-1.jpg" alt="" />
+              <img src="./public/images/product/default/home-1/default-2.jpg" alt="" />
+            </a>
+            <div className="action-link">
+              <div className="action-link-left">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#modalAddcart">Add to Cart</a>
               </div>
+              <div className="action-link-right">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#modalQuickview"><i className="icon-magnifier"></i></a>
+                <a href="wishlist.html"><i className="icon-heart"></i></a>
+                <a href="compare.html"><i className="icon-shuffle"></i></a>
+              </div>
+            </div>
+          </div>
+          <div className="content">
+            <div className="content-left">
+              <h6 className="title"><a href="product-details-default.html">Epicuri per lobortis</a></h6>
+              <ul className="review-star pl-0 mb-0">
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="empty"><i className="ion-android-star"></i></li>
+              </ul>
+            </div>
+            <div className="content-right">
+              <span className="price">$68</span>
+            </div>
+          </div>
+        </div>
       </SwiperSlide>
       <SwiperSlide>
-              <div className="hero-slider">
-                <div className="hero-slider-bg">
-                  <img src="/public/images/hero-slider/home-1/hero-slider-1.jpg" alt="Hero Slider 2" />
-                </div>
-                <div className="hero-slider-wrapper">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-auto">
-                        <div className="hero-slider-content">
-                          <h4 className="subtitle">New collection</h4>
-                          <h2 className="title">Best Of NeoCon <br /> Gold Award </h2>
-                          <a href="product-details-default.html" className="btn btn-lg btn-outline-golden">shop now</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+        <div className="product-default-single-item product-color--golden swiper-slide">
+          <div className="image-box">
+            <a href="product-details-default.html" className="image-link">
+              <img src="./public/images/product/default/home-1/default-3.jpg" alt="" />
+              <img src="./public/images/product/default/home-1/default-4.jpg" alt="" />
+            </a>
+            <div className="action-link">
+              <div className="action-link-left">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#modalAddcart">Add to Cart</a>
               </div>
+              <div className="action-link-right">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#modalQuickview"><i className="icon-magnifier"></i></a>
+                <a href="wishlist.html"><i className="icon-heart"></i></a>
+                <a href="compare.html"><i className="icon-shuffle"></i></a>
+              </div>
+            </div>
+          </div>
+          <div className="content">
+            <div className="content-left">
+              <h6 className="title"><a href="product-details-default.html">Epicuri per lobortis</a></h6>
+              <ul className="review-star pl-0 mb-0">
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="empty"><i className="ion-android-star"></i></li>
+              </ul>
+            </div>
+            <div className="content-right">
+              <span className="price">$68</span>
+            </div>
+          </div>
+        </div>
       </SwiperSlide>
       <SwiperSlide>
-              <div className="hero-slider">
-                <div className="hero-slider-bg">
-                  <img src="/public/images/hero-slider/home-1/hero-slider-1.jpg" alt="Hero Slider 2" />
-                </div>
-                <div className="hero-slider-wrapper">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-auto">
-                        <div className="hero-slider-content">
-                          <h4 className="subtitle">New collection</h4>
-                          <h2 className="title">Best Of NeoCon <br /> Gold Award </h2>
-                          <a href="product-details-default.html" className="btn btn-lg btn-outline-golden">shop now</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+        <div className="product-default-single-item product-color--golden swiper-slide">
+          <div className="image-box">
+            <a href="product-details-default.html" className="image-link">
+              <img src="./public/images/product/default/home-1/default-1.jpg" alt="" />
+              <img src="./public/images/product/default/home-1/default-2.jpg" alt="" />
+            </a>
+            <div className="action-link">
+              <div className="action-link-left">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#modalAddcart">Add to Cart</a>
               </div>
+              <div className="action-link-right">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#modalQuickview"><i className="icon-magnifier"></i></a>
+                <a href="wishlist.html"><i className="icon-heart"></i></a>
+                <a href="compare.html"><i className="icon-shuffle"></i></a>
+              </div>
+            </div>
+          </div>
+          <div className="content">
+            <div className="content-left">
+              <h6 className="title"><a href="product-details-default.html">Epicuri per lobortis</a></h6>
+              <ul className="review-star pl-0 mb-0">
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="empty"><i className="ion-android-star"></i></li>
+              </ul>
+            </div>
+            <div className="content-right">
+              <span className="price">$68</span>
+            </div>
+          </div>
+        </div>
       </SwiperSlide>
       <SwiperSlide>
-              <div className="hero-slider">
-                <div className="hero-slider-bg">
-                  <img src="/public/images/hero-slider/home-1/hero-slider-1.jpg" alt="Hero Slider 2" />
-                </div>
-                <div className="hero-slider-wrapper">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-auto">
-                        <div className="hero-slider-content">
-                          <h4 className="subtitle">New collection</h4>
-                          <h2 className="title">Best Of NeoCon <br /> Gold Award </h2>
-                          <a href="product-details-default.html" className="btn btn-lg btn-outline-golden">shop now</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+        <div className="product-default-single-item product-color--golden swiper-slide">
+          <div className="image-box">
+            <a href="product-details-default.html" className="image-link">
+              <img src="./public/images/product/default/home-1/default-3.jpg" alt="" />
+              <img src="./public/images/product/default/home-1/default-4.jpg" alt="" />
+            </a>
+            <div className="action-link">
+              <div className="action-link-left">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#modalAddcart">Add to Cart</a>
               </div>
+              <div className="action-link-right">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#modalQuickview"><i className="icon-magnifier"></i></a>
+                <a href="wishlist.html"><i className="icon-heart"></i></a>
+                <a href="compare.html"><i className="icon-shuffle"></i></a>
+              </div>
+            </div>
+          </div>
+          <div className="content">
+            <div className="content-left">
+              <h6 className="title"><a href="product-details-default.html">Epicuri per lobortis</a></h6>
+              <ul className="review-star pl-0 mb-0">
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="empty"><i className="ion-android-star"></i></li>
+              </ul>
+            </div>
+            <div className="content-right">
+              <span className="price">$68</span>
+            </div>
+          </div>
+        </div>
       </SwiperSlide>
       <SwiperSlide>
-              <div className="hero-slider">
-                <div className="hero-slider-bg">
-                  <img src="/public/images/hero-slider/home-1/hero-slider-1.jpg" alt="Hero Slider 2" />
-                </div>
-                <div className="hero-slider-wrapper">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-auto">
-                        <div className="hero-slider-content">
-                          <h4 className="subtitle">New collection</h4>
-                          <h2 className="title">Best Of NeoCon <br /> Gold Award </h2>
-                          <a href="product-details-default.html" className="btn btn-lg btn-outline-golden">shop now</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+        <div className="product-default-single-item product-color--golden swiper-slide">
+          <div className="image-box">
+            <a href="product-details-default.html" className="image-link">
+              <img src="./public/images/product/default/home-1/default-1.jpg" alt="" />
+              <img src="./public/images/product/default/home-1/default-2.jpg" alt="" />
+            </a>
+            <div className="action-link">
+              <div className="action-link-left">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#modalAddcart">Add to Cart</a>
               </div>
-            </SwiperSlide>
+              <div className="action-link-right">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#modalQuickview"><i className="icon-magnifier"></i></a>
+                <a href="wishlist.html"><i className="icon-heart"></i></a>
+                <a href="compare.html"><i className="icon-shuffle"></i></a>
+              </div>
+            </div>
+          </div>
+          <div className="content">
+            <div className="content-left">
+              <h6 className="title"><a href="product-details-default.html">Epicuri per lobortis</a></h6>
+              <ul className="review-star pl-0 mb-0">
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="empty"><i className="ion-android-star"></i></li>
+              </ul>
+            </div>
+            <div className="content-right">
+              <span className="price">$68</span>
+            </div>
+          </div>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className="product-default-single-item product-color--golden swiper-slide">
+          <div className="image-box">
+            <a href="product-details-default.html" className="image-link">
+              <img src="./public/images/product/default/home-1/default-3.jpg" alt="" />
+              <img src="./public/images/product/default/home-1/default-4.jpg" alt="" />
+            </a>
+            <div className="action-link">
+              <div className="action-link-left">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#modalAddcart">Add to Cart</a>
+              </div>
+              <div className="action-link-right">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#modalQuickview"><i className="icon-magnifier"></i></a>
+                <a href="wishlist.html"><i className="icon-heart"></i></a>
+                <a href="compare.html"><i className="icon-shuffle"></i></a>
+              </div>
+            </div>
+          </div>
+          <div className="content">
+            <div className="content-left">
+              <h6 className="title"><a href="product-details-default.html">Epicuri per lobortis</a></h6>
+              <ul className="review-star pl-0 mb-0">
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="fill"><i className="ion-android-star"></i></li>
+                <li className="empty"><i className="ion-android-star"></i></li>
+              </ul>
+            </div>
+            <div className="content-right">
+              <span className="price">$68</span>
+            </div>
+          </div>
+        </div>
+      </SwiperSlide>
     </Swiper>
   );
 };

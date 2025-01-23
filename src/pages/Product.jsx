@@ -343,7 +343,7 @@ function Product() {
             <div className="container">
                 <div className="row">
                     <div className="col-12 mb-5">
-                        <Slider3></Slider3>
+                        <Slider3 />
                     </div>
                 </div>
             </div>
