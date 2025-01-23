@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import './Slider1.css'
+import '../slider.css'
 
 import { Autoplay } from 'swiper/modules';
 import { Navigation } from 'swiper/modules';
@@ -21,7 +21,7 @@ const Slider1 = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
-      loop={true} navigation={true} pagination={{ clickable: true }} modules={[Autoplay, Navigation, Pagination]}
+      loop={true} navigation={true} modules={[Autoplay, Navigation, Pagination]}
 
       className="mySwiper"
     >

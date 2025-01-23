@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Slider3 from '../slider/Slider3';
+import Slider3 from '../slider/slider3';
 function Product() {
   return (
     <div>

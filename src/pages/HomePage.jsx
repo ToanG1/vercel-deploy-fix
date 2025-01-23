@@ -10,10 +10,10 @@ import '../../node_modules/swiper/modules/pagination.css';
 import 'swiper/css/scrollbar';
 import '../../public/css/style.css'
 
-import Slider1 from '../slider/Slider1'
-import Slider2 from '../slider/Slider2';
-import Slider3 from '../slider/Slider3';
-import Slider4 from '../slider/Slider4';
+import Slider1 from '../slider/slider1'
+import Slider2 from '../slider/slider2';
+import Slider3 from '../slider/slider3';
+import Slider4 from '../slider/slider4';
 
 
 const HomePage = () => {

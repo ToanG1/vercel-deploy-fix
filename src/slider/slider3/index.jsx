@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
 
-import './Slider1.css'
+import '../slider.css'
 import { Autoplay } from 'swiper/modules';
 
 
