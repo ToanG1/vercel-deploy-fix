@@ -9,10 +9,10 @@ import '../../node_modules/swiper/modules/navigation.css';
 import '../../node_modules/swiper/modules/pagination.css';
 import 'swiper/css/scrollbar';
 import '../../public/css/style.css'
-import $ from 'jquery'
+
 import Slider1 from '../slider/Slider1'
 import Slider2 from '../slider/Slider2';
-import Slider3 from '../slider/Slider3.jsx';
+import Slider3 from '../slider/Slider3';
 import Slider4 from '../slider/Slider4';
 
 
@@ -223,7 +223,7 @@ const HomePage = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <Slider3 />
+                        <Slider3></Slider3>
                     </div>
                 </div>
             </div>
@@ -302,7 +302,7 @@ const HomePage = () => {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-12">
-                        <Slider4 />
+                        <Slider4></Slider4>
                     </div>
                 </div>
             </div>
@@ -332,7 +332,7 @@ const HomePage = () => {
            </div>
        </div>
    </div>
-          <Footer />
+          <Footer></Footer>
       
     </div>
   );
